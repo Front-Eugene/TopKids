@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.screen{
+    width: 100%;
+    height: 100vh;
+    background: url(img/Backarand.jpg) center center/cover no-repeat;
+
+    
+}
+
+.menu{
+    width: 100%;
+    height: 70px; 
+    display: flex;
+    font-size: 20px;
+    font-weight:700;
+    font-family: 'Times New Roman', Times, serif;
+
+    align-items: center;
+    justify-content:space-around;
+
+}
+
+h1 {
+    width:100% ;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    width: 241px;
+    height: 60px;
+    background: url("img/NFT.png");
+}
+
+.link {
+    color: #e40de4;
+    text-decoration: none;
+    font: size 20px; 
+}
+
+.wert {
+    width:100%;
+    height: 400px; 
+}
+
+#link_1 {
+    background:red ; 
+}
+
+#link_2 {
+    background:rgb(253, 137, 5) ; 
+}
+
+#link_3 {
+    background:rgb(245, 221, 4) ; 
+}
+
+#link_3 {
+    background:rgb(51, 255, 0) ; 
+}
+
+#link_4 {
+    background:rgb(0, 153, 255) ; 
+}
+
+#link_5 {
+    background:rgb(25, 0, 255) ; 
+}
+
+#link_6 {
+    background:rgb(212, 0, 255) ; 
+}
+

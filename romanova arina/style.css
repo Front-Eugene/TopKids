@@ -1,0 +1,60 @@
+body { 
+    margin:0; 
+    padding:0; 
+    box-sizing:border-box;
+}
+
+.screen {
+    width: 100%; 
+    height: 100vh;  
+    background: url('img/Backgraund.jpg') center center/cover no-repeat; 
+}
+
+.menu{ 
+    width: 100%; 
+    height: 70px ; 
+    display: flex; 
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px; 
+    font-weight: 700; 
+    font-family:'Times New Roman', Times, serif; 
+}
+
+h1 { 
+    text-align: center;
+    margin: 0 auto;
+} 
+
+.logo { 
+    width: 241px; 
+    height: 60px;   
+    background: url(img/NFT.png);  
+} 
+.link {
+    color: #fff;
+    text-decoration: none; 
+    font-size: 25px;
+}            
+.wert { 
+    width: 100%; 
+    height: 400px;
+} 
+#link-1 { 
+    background:rgb(240, 216, 4) ;
+} 
+#link-2 { 
+    background:rgb(4, 240, 55) ;
+} 
+#link-3 { 
+    background:rgb(4, 205, 240) ;
+} 
+#link-4 { 
+    background:rgb(240, 4, 169) ;
+} 
+#link-5 { 
+    background:rgb(240, 4, 4) ;
+} 
+#link-6 { 
+    background:rgb(51, 240, 4) ;
+}
