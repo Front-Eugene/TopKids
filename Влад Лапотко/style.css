@@ -8,24 +8,32 @@ body {
     width: 100%; 
     height: 100vh;
     background: url(img/Backgraund.png) center no-repeat;
+    position: absolute;
+    top: 0;
+}
+.title{
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+    text-align: center;
+    padding: 150px 0 0 0;
+    font-size: 50px;
 }
 
 .menu {
     width: 100%;
     height: 80px;
     display: flex;
-
-    position: fixed;
-    top: 0;
-    left: 0;
-    background: #0000008a;
-
     font-size: 20px;
     font-weight: 700;
-    font-family: monospace;
+    font-family: 'Times New Roman', Times, serif;
 
     align-items: center;
     justify-content: space-around;
+    position: fixed;
+    top:0;
+    left: 0;
+    background:#0000008a;
 }
 
 h1 {
@@ -34,58 +42,39 @@ h1 {
     justify-content: space-around;
 }
 
-.title {
-    margin: 200px auto;
-    display: block;
-    padding: 150px 0 0;
-    margin: 0 auto;
-    text-align: center;
-    font-family: monospace;
-    font-size: 50px;
-}
-
 .logo {
     width: 260px;
     height: 60px;
     background: url(img/logo.png) center center/cover no-repeat;
+}
+.btn-Wrap {
+    margin: 20px 0;
+    text-align: center;
+}
+.btn-1{
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    background: linear-gradient(rgb(0, 255, 98), #fff);
+}
+.btn-2{
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    border: #f2ff00;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    background: linear-gradient(rgb(255, 6, 6), rgb(19, 107, 122));
 }
 
 .link {
     color: #fff;
     text-decoration: none;
     font-size: 25px;
-}
-
-.btn-wrap {
-    width: 500px;
-    display: flex;
-    justify-content: space-around;
-    margin: 20px auto;
-    text-align: center;
-}
-
-.btn1 {
-    width: 200px;
-    height: 50px;
-    border-radius: 20px;
-    border: 2px solid #15e275;
-    color: #fff;
-    font-size: 20px;
-    font-weight: 700;
-    background-color: #1b152b;
-    cursor: pointer;
-}
-
-.btn2 {
-    width: 200px;
-    height: 50px;
-    border-radius: 20px;
-    border: 2px solid #1b152b;
-    color: #fff;
-    font-size: 20px;
-    font-weight: 700;
-    background: linear-gradient(#1bce54, #0ba05f);
-    cursor: pointer;
 }
 
 .wert {

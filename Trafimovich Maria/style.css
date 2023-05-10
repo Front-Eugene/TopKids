@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.screen{
+    width: 100%;
+    height: 100vh;
+    background:url(img/Backgraund.png);
+}
+
+.menu {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    font: size 20px; 
+    font-weight: 700;
+    font-family: 'Times New Roman','Times New Roman', Times, serif ;
+
+    align-items: center;
+    justify-content: space-around;
+}
+
+h1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
