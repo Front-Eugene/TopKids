@@ -51,6 +51,47 @@ h1 {
     text-align: center;
     font-size: 50 px; 
 }
+.item-wrap{
+    width: 80%;
+    height: 300px;
+    margin: 0 auto;
+    border-radius: 20px;
+    display: flex;
+    justify-content:space-between ;
+    align-items: flex-end;
+    
+
+
+}
+.img-1{
+    border-radius: 20px;
+    width: 100%;
+    height: 250px;
+    background: url(./img/Кабан\ 1.png);
+}
+.img-2{
+    border-radius: 20px;
+    width: 100%;
+    height: 250px;
+    background: url(./img/Обезьяна\ 1.png);
+}
+.img-3{
+    border-radius: 20px;
+    width: 100%;
+    height: 250px;
+    background: url(./img/герой\ 1.png);
+}
+
+.item{
+    width: 30%;
+    height: 150px;
+    border-radius: 20px;
+    background: linear-gradient(30deg, red, rgb(213, 250, 4));
+    display: flex;
+    justify-content:space-around ;
+    align-items: flex-end;
+    
+}
 
 .btn-wrap{
     
@@ -61,10 +102,11 @@ h1 {
     width:200px ;
     height: 50px;
     border-radius:25px ;
-    color: #fff ;
+    color: #000000 ;
     font-size:20px ;
     font-weight:700 ;
-    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    background: linear-gradient(0.25turn, #faf600, #3103fd, #fbff00);
+    cursor: pointer;
 
 }
 .btn2{
@@ -72,10 +114,11 @@ h1 {
     height: 50px;
     border-radius:25px;
     border: 3px solid ; 
-    color: #f6fa08 ;
+    color: #000000 ;
     font-size:20px ;
     font-weight:700 ;
-    background:00000000;
+    background: linear-gradient(0.25turn, #f70c0c, #0011ff, #ff00c8);
+    cursor: pointer;
 
 }
 

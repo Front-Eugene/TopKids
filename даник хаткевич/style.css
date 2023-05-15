@@ -6,7 +6,7 @@ body {
 
 .screen {
     width: 100%; 
-    height: 100vh;
+    /* height: 100vh; */
     background: url(img/Backgraund.png) center no-repeat;
 }
 
@@ -88,6 +88,11 @@ h1 {
     cursor: pointer;
 }
 
+.wert {
+    width: 100%;
+    height: 800px;
+}
+
 .item-wrap {
     width: 80%;
     height: 300px;
@@ -102,33 +107,28 @@ h1 {
     width: 30%;
     height: 150px;
     border-radius: 20px;
-    background: linear-gradient(30deg, #000, #fff);
+    background: linear-gradient(30deg, #9DFE00, #14D9E5);
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
 }
 
+.item-img {
+    border-radius: 20px;
+    width: 100%;
+    height: 250px;
+}
+
 .img-1 {
-    background: url(./img/kaban.png)
+    background: url(./pig.png);
 }
 
 .img-2 {
-    background: url(./img/bibizyan.png)
+    background: url(./monky.png);
 }
 
 .img-3 {
-    background: url(./img/hero.png)
-}
-
-.item-img {
-    width: 100%;
-    height: 250px;
-    border-radius: 20px;
-}
-
-.wert {
-    width: 100%;
-    height: 800px;
+    background: url(./robot.png);
 }
 
 #link-1 {
